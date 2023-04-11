@@ -31,3 +31,12 @@ const random2 = (4 +  6 + 10) * 10;
 
 console.log(random);
 console.log(random2);
+
+
+let number2 = 10 ;
+let number3 = 35;
+number1 = 'pants'
+number2 = '59' 
+
+const result = number2 + number3
+console.log(result);
