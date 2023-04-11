@@ -1,13 +1,13 @@
 
 // Numbers
-// don't declare type
+// +=, -= , *= , ++ , -- , %
+// Modulus (%) operator returns the remaider after integer division
 
-const number = 34;
-// let pants = 2.466;
-// pants = 'are great'
+let number = 60 ;
+number += 5;
+number += 5;
+number += 5;
+number += 5;
+number -= 5;
 
-const number2 = 2.456
-const number3 = '2.456'
-console.log(number);
-console.log(number2);
-console.log(number3);
+console.log(number); 
