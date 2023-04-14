@@ -16,7 +16,7 @@ function greet(name,second){
 }
 
 // greet bob
-greet(4)
+greet(4, 'susy')
 // greet anna
 greet(anna, bob)
 //greet susy
