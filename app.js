@@ -1,12 +1,12 @@
-// Loops
-// repeatedly run a block of code while condition is true
-// for loop
+// Template Literals - ES6+
+// Backtick characters `` - 
+// Interpolation ${} - insert expression(value)
 
-// let i;
-// for (i = 0 ; i< 10 ; i++){
-//   console.log('and the number is: '+ i);
-// }
+const name = 'john';
+const age = 25;
+const sentence = "Hey it's " + name + ' and he is ' + age + ' years old'
 
-for (let i = 11; i >= 0; i--) {
-  console.log('and the number is : ' + i);
-}
+const value = `Hey it's ${name} and he is ${age} years old. And here is some simple math ${4 + 4}`
+console.log(value);
+
+console.log(sentence);
