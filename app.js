@@ -1,26 +1,12 @@
-// Arrays , Functions and Objects
-// Objects - key/value pairs methods
-// dot notation
+// Loops
+// repeatedly run a block of code while condition is true
+// for loop
 
-const person = {
-  name: 'john',
-  lastName: 'peters',
-  age: 40,
-  education: false,
-  married : true,
-  siblings: ['anna', 'susan','peter'],
-  // greeting: function () {
-  //   console.log('Hello my name is JOHN');
-  // },
-  greeting () {
-    console.log('Hello my name is JOHN');
-  }
+// let i;
+// for (i = 0 ; i< 10 ; i++){
+//   console.log('and the number is: '+ i);
+// }
+
+for (let i = 11; i >= 0; i--) {
+  console.log('and the number is : ' + i);
 }
-
-const age = person.age;
-console.log(age);
-person.name = 'bob'
-
-console.log(person.name);
-console.log(person.siblings[2]);
-person.greeting();

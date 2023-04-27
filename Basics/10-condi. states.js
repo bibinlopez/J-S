@@ -22,6 +22,9 @@ if (value2) {
   console.log('hello people');
 }
 
+const num = 86
+
+
 
 // const num1 = 3 ; 
 // const num2 = 3 ;
@@ -47,8 +50,8 @@ const num1 = 3;
 const num2 = 3;
 const result = num1 >= num2
 
-const number = true ;
+const number = true;
 
-if(!number){
+if (!number) {
   console.log('value is true');
 }

@@ -2,7 +2,7 @@
 // dice values : 1 - 6
 
 
-const dice = 2;
+const dice = 3;
 
 switch (dice) {
   case 1:
@@ -23,4 +23,6 @@ switch (dice) {
   case 6:
     console.log('you got six');
     break;
+  default:
+    console.log('you did not roll the dice');
 }
