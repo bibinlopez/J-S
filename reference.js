@@ -4,6 +4,10 @@
 // Arrays, Functions, Object = object
 // typeof
 
+// when assigning primitive data type value to a variable any changes are made directly to that value, without affectiing original value
+
+// when assigning non-primitive data type value to a variable is done by reference so any changes will affect all the references.
+
 
 const number = 1;
 let number2 = number;
