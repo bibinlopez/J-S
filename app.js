@@ -1,17 +1,14 @@
-// Null and Undefined
-// both represent "no value"
+// Truthy and Falsy
+// "", '',`` ,0 ,-0 ,NaN ,false , null, undefined
 
-// undefined = "javescript can not find value for this"
+const bool1 = true;
+const bool2 = 2 > 1;
 
-// variable without value
-// missing function arguments
-// mising object properties
 
-// null = ' devloper sets the value
+if (bool1) {
+  console.log(`Hey it works!`);
+}
 
-let number = 20 + null // 20 + 0
-console.log(number);
-
-let number2 = 20 + undefined // 20 + 0
-console.log(number2);
-
+if (bool2) {
+  console.log(`Hey it also works!`);
+}
