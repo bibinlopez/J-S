@@ -1,12 +1,41 @@
-// Template Literals - ES6+
-// Backtick characters `` - 
-// Interpolation ${} - insert expression(value)
+// Array Properties and Methods
+let names = ['john', 'bobo', 'barry', 'olga', 'ben']
 
-const name = 'john';
-const age = 25;
-const sentence = "Hey it's " + name + ' and he is ' + age + ' years old'
+//length
+console.log(names.length);
+console.log(names[names.length - 1]);
 
-const value = `Hey it's ${name} and he is ${age} years old. And here is some simple math ${4 + 4}`
-console.log(value);
 
-console.log(sentence);
+// concat
+const lastNames = ['pepper', 'onion', 'banana']
+const allNames = names.concat(lastNames)
+console.log(allNames);
+
+//reverse
+console.log(allNames.reverse());
+
+//unshift
+allNames.unshift('susy');
+allNames.unshift('anna');
+console.log(allNames);
+//shift
+allNames.shift();
+allNames.shift();
+allNames.shift();
+console.log(allNames);
+//push
+allNames.push('susy');
+allNames.push('anna');
+console.log(allNames);
+
+//pop
+// allNames.pop();
+// allNames.pop();
+// allNames.pop();
+// allNames.pop(); 
+// console.log(allNames);
+
+// splice - mutates original array
+const specificNames = allNames.splice(0, 3)
+console.log(specificNames);
+console.log(allNames);
